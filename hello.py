@@ -8,8 +8,7 @@ def hello_world():
     #return "<h1>Hello, World!</h1>"
     return render_template('home.html')
 
-@app.route("/hola/<name>")
-def hello(name):
+@app.route("/hola/<name>")ef hello(name):
     #return f"<h1>Hola {name}<h1>"
     return render_template('hola.html', name=name)
 
